@@ -12,6 +12,7 @@ namespace HW_5_7
         {
             int a = 1;
             double n;
+            int a *= n;
 
             Console.WriteLine("Hallo! This programm will calculates sum from 1 to N. Please enter the N:  ");
             n = double.Parse(Console.ReadLine());
