@@ -28,8 +28,9 @@ namespace HW_5._8
             for ( i = 0; i < years; i++)
             {
                 deposit*= rate;
-                Console.WriteLine(deposit);
+                
             }
+            Console.WriteLine("Your deposit after " + years + " years will be : " + deposit);
             Console.ReadLine();
         }
     }
