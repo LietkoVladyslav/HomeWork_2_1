@@ -12,16 +12,17 @@ namespace HW_5_7
         {
             int a = 1;
             double n;
-            int a *= n;
+            int i;
+           
 
             Console.WriteLine("Hallo! This programm will calculates sum from 1 to N. Please enter the N:  ");
             n = double.Parse(Console.ReadLine());
 
 
-            while (a <= n) 
+            for (i = 0; a <= n; i++) 
             {
-                
-                Console.WriteLine(a++);
+                a*= 2;
+                Console.WriteLine(a);
                 
             }
 
